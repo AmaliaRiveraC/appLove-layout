@@ -26,10 +26,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-img {
-  vertical-align: middle;
-}
-
 a {
   color: #373B47;
   text-decoration: none;
@@ -39,8 +35,10 @@ a:hover {
   color: #E95853;
 }
 
-logo {
+.logo {
   float: right;
+  width: 70px;
+  padding: 10px;
 }
 
 header {
@@ -76,11 +74,11 @@ menu {
  	background-image: url("../assets/images/bg-home.jpg"); /* Nuestra imagen de portada */
  	background-position: center; /* Posicionar nuestra imagen al centro */
  	background-repeat: no-repeat;
- 	background-size: cover;
- 	height: 554px;
+ 	/*background-size: cover;*/
  	text-align: center;
- 	margin-top: 100px;
-    padding: 70px;
+ 	margin-top: 90px;
+    padding: 30px;
+    color: white;
  }
 
 
@@ -100,10 +98,7 @@ menu {
  	border-radius: 1px;
  	font-weight: 500;
  	text-transform: uppercase;
- 	margin-top: 63px;
- 	display: inline-block;
  	font-size: 14px;
-
  }
 
 #work {
@@ -115,7 +110,7 @@ menu {
  	background-color: #F17C72;
  	text-align: center;
  	color: #fff;
- 	padding: 70px 7px;
+ 	padding: 70px 5px;
  }
 
  .box-services {
@@ -123,6 +118,9 @@ menu {
  	width: 30%;
  	margin-top: 63px;
  }
+.box-services img {
+    width: 80%;
+}
 
  .text-services {
  	font-size: 35px;
@@ -142,10 +140,6 @@ menu {
   width: 300px;
   height: 300px;
   cursor: pointer;
-}
-
-.box-services img {
-    width: 200px;
 }
 
 #copyright{
