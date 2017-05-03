@@ -57,6 +57,7 @@ menu {
 .link {
   font-weight: 700;
   padding: 21px;
+  overflow: auto;
  }
 
  header {
@@ -74,7 +75,7 @@ menu {
  	background-image: url("../assets/images/bg-home.jpg"); /* Nuestra imagen de portada */
  	background-position: center; /* Posicionar nuestra imagen al centro */
  	background-repeat: no-repeat;
- 	/*background-size: cover;*/
+ 	background-size: cover;
  	text-align: center;
  	margin-top: 90px;
     padding: 30px;
@@ -82,11 +83,6 @@ menu {
  }
 
 
-
-.menu {
-	padding: 14px 70px;
-	overflow: auto;
-}
  .text-home {
  	font-size: 53px;
  }
@@ -106,6 +102,10 @@ menu {
   padding: 70px 7px;
 }
 
+#imgwork {
+    width: 80%;
+}
+
  #services {
  	background-color: #F17C72;
  	text-align: center;
@@ -119,7 +119,7 @@ menu {
  	margin-top: 63px;
  }
 .box-services img {
-    width: 80%;
+    width: 60%;
 }
 
  .text-services {
@@ -137,8 +137,7 @@ menu {
 
 .box-work img {
   margin: 20px;
-  width: 300px;
-  height: 300px;
+  width: 70%;
   cursor: pointer;
 }
 
