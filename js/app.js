@@ -4,8 +4,8 @@
 var imagenModal = document.getElementsByClassName("imagenes");
 var modal = document.getElementsByClassName("modal")[0];
 var imagen = document.getElementById("image");
-var atrasarImagen = document.getElementById("atrasarmodal");
-var adelantarImagen = document.getElementById("adelantarmodal");
+var atrasarModal = document.getElementById("atrasarModal");
+var adelantarModal = document.getElementById("adelantarModal");
 
 for(var i=0; i < imagenModal.length; i++) {
     imagenModal[i].addEventListener("click", aparecerModal);
@@ -20,7 +20,5 @@ function aparecerModal () {
     imagen.src = this.src;
 }
 
-function adelantarModal() {
-    for(var i=0)
-}
+
 
