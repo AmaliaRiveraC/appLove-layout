@@ -11,9 +11,14 @@ for(var i=0; i < imagenModal.length; i++) {
     imagenModal[i].addEventListener("click", aparecerModal);
 }
 
+for(var i=0; i < imagenModal.length) {
+    
+}
+
 function aparecerModal () {
     modal.style.display = "block";
     imagen.src = this.src;
 }
+
 
 
